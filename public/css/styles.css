@@ -471,6 +471,11 @@ input{
     font-size: 25px;
   }
 
+.flechas{
+  display: flex;
+  justify-content: flex-end;
+}
+
 /*bienvenido*/
 .welcome{
 	min-height: 300px;

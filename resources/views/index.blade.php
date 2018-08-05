@@ -76,8 +76,8 @@
 </div>
 
 		<article id="que_es1" class="que_es">
-		{{-- <div class="box" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"></div> --}}
+		<div class="box" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div> 
 		<div class="que_es">
 		<div class="que_text">
 		<h2>¿Qué es? =0</h2>

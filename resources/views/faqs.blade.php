@@ -44,8 +44,11 @@
     <div class="pregunta">
     <div class="faq_title">
     <h4>¿Qué es Lorem Ipsum?</h4>
-    <i class="fa fa-angle-down"></i>
-    <i class="fa fa-angle-up" aria-hidden="true"></i>    </div>
+    <div class="flechas">
+    <a href="#" class="fa fa-angle-down"></a>
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
+    </div>
     <div class="faq_text">
        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
     </div>

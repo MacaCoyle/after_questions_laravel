@@ -29,7 +29,9 @@
             <li><a href="register">Registrate</a></li>
         </ul>
     </nav>
-    <button class="button_login"> <a href="login">Login</a></button>
+    <div class="button_login">
+        <a href="login"> Login</a>
+    </div>
     </div><!-- cierra botonera -->
 </div><!-- cierra header_wrapper -->
 </header>
@@ -100,9 +102,9 @@
     </div>
     <nav class="footer">
         <uL>
-            <li>¿Qué es?</li>
-            <li>Reglas</li>
-            <li>FAQS</li>
+            <li><a href="index#que_es1">¿Qué es?</a></li>
+            <li><a href="index#reglas1">Reglas</a></li>
+            <li><a href="faqs">FAQS</a></li>
             <li>Copyright  2018. Todos los derechos reservados</li>
         </uL>
     </nav>

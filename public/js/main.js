@@ -1,4 +1,3 @@
-
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "main-nav") {
@@ -43,19 +42,4 @@ function showSlides() {
     if (slideIndex > slides.length) {slideIndex = 1} 
     slides[slideIndex-1].style.display = "block"; 
     setTimeout(showSlides, 4000); // Change image every 2 seconds
-}
-
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
 }

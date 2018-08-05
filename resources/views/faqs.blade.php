@@ -8,8 +8,6 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="js/main.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/custom.js" type="text/javascript"></script>
 <title>After question</title>
 </head>
 <body>
@@ -30,7 +28,9 @@
     		<li><a href="register.php">Registrate</a></li>
  	 	</ul>
 	</nav>
-	<button class="button_login"> <a href="login.php">Login</a></button>
+	<div class="button_login">
+        <a href="login"> Login</a>
+    </div>
 	</div><!-- cierra botonera -->
 </div><!-- cierra header_wrapper -->
 </header>
@@ -41,53 +41,68 @@
     <h3>FAQs</h3>
     </div>
     
+    <div class="pregunta">
+    <div class="faq_title">
+    <h4>¿Qué es Lorem Ipsum?</h4>
+    <i class="fa fa-angle-down"></i>
+    <i class="fa fa-angle-up" aria-hidden="true"></i>    </div>
+    <div class="faq_text">
+       <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+    </div>
+    </div>
+
+    <div class="pregunta">
     <div class="faq_title">
     <h4>¿Qué es Lorem Ipsum?</h4>
     </div>
     <div class="faq_text">
        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
     </div>
-
-    <div class="faq_title">
-    <h4>¿Qué es Lorem Ipsum?</h4>
-    </div>
-    <div class="faq_text">
-       <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería.</p>
     </div>
    
-    <div class="faq_title">
-   <h4>¿Qué es Lorem Ipsum?</h4>
-    </div>
-    <div class="faq_text">
-       <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor </p>
-    </div>
-
+    <div class="pregunta">
     <div class="faq_title">
     <h4>¿Qué es Lorem Ipsum?</h4>
     </div>
     <div class="faq_text">
        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
     </div>
+    </div>
 
+    <div class="pregunta">
     <div class="faq_title">
     <h4>¿Qué es Lorem Ipsum?</h4>
     </div>
     <div class="faq_text">
        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
     </div>
+    </div>
 
+    <div class="pregunta">
     <div class="faq_title">
     <h4>¿Qué es Lorem Ipsum?</h4>
     </div>
     <div class="faq_text">
        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
     </div>
+    </div>
 
+    <div class="pregunta">
     <div class="faq_title">
     <h4>¿Qué es Lorem Ipsum?</h4>
     </div>
     <div class="faq_text">
        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+    </div>
+    </div>
+
+    <div class="pregunta">
+    <div class="faq_title">
+    <h4>¿Qué es Lorem Ipsum?</h4>
+    </div>
+    <div class="faq_text">
+       <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+    </div>
     </div>
 </div>
 </main>
@@ -100,11 +115,10 @@
     </div>
 	<nav class="footer">
 		<uL>
-            <li><a href="index.php#que_es1">¿Qué es?</a></li>
-            <li><a href="index.php#reglas1">Reglas</a></li>
-            <li><a href="index.php#players">Players</a></li>
-            <li><a href="faqs.php">FAQS</a></li>
-			<li>Copyright  2018. Todos los derechos reservados</li>
+            <li><a href="index#que_es1">¿Qué es?</a></li>
+            <li><a href="index#reglas1">Reglas</a></li>
+            <li><a href="faqs">FAQS</a></li>
+            <li>Copyright  2018. Todos los derechos reservados</li>
 		</uL>
 	</nav>
 </footer>

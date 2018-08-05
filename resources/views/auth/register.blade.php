@@ -21,15 +21,17 @@
     <div class="botonera">
     <nav class="main-nav">
         <ul>
-            <li><a href="index.php#que_es1">¿Qué es?</a></li>
-            <li><a href="index.php#reglas1">Reglas</a></li>
-            <li><a href="index.php#players">Players</a></li>
-            <li><a href="faqs.php">FAQS</a></li>
+            <li><a href="index#que_es1">¿Qué es?</a></li>
+            <li><a href="index#reglas1">Reglas</a></li>
+            <li><a href="index#players">Players</a></li>
+            <li><a href="faqs">FAQS</a></li>
             <li><a href="index.php#descargar">Descargalo</a></li>
             <li><a href="register">Registrate</a></li>
         </ul>
     </nav>
-    <button class="button_login"> <a href="login">Login</a></button>
+    <div class="button_login">
+        <a href="login"> Login</a>
+    </div>
     </div><!-- cierra botonera -->
 </div><!-- cierra header_wrapper -->
 </header>
@@ -106,9 +108,9 @@
     </div>
     <nav class="footer">
         <ul>
-            <li>¿Qué es?</li>
-            <li>Reglas</li>
-            <li>FAQS</li>
+            <li><a href="index#que_es1">¿Qué es?</a></li>
+            <li><a href="index#reglas1">Reglas</a></li>
+            <li><a href="faqs">FAQS</a></li>
             <li>Copyright  2018. Todos los derechos reservados</li>
         </ul>
     </nav>

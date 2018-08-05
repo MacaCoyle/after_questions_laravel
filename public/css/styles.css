@@ -170,7 +170,18 @@ nav ul li{
     justify-content: center;
 }
 
+.box{
+  background-color: red;
+  width: 200px;
+  height: 100px;
+}
+
 .button_login{
+  margin-top: 13px;
+  margin-right: 5px;
+}
+
+.button_login a {
 	/*margin-top: 20px;*/
 	text-decoration:none; 
 	background: -moz-linear-gradient(left, #f3a908 0%, #ffdd00 100%); /* FF3.6-15 */
@@ -184,6 +195,7 @@ nav ul li{
 	font-weight: 900;
 	color: white;
 	border:none;
+  padding: 9px 23px;
 }
 
 .button_login a {
@@ -329,6 +341,13 @@ nav ul li{
     padding: 100px 0;
 }
 
+.reglas_left{
+  display: flex;
+  justify-content: center;
+  margin: 5px 10px;
+  padding: 20px 0;
+}
+
 .numeros  {
 	color: #FDEEC2;
 	font-size: 30px;
@@ -419,80 +438,38 @@ input{
 }
 
 /*FAQS*/
-
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-
-.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2212";
-}
-
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
 #faqs{
-
-  width: 800px;
-  padding: 1em;
-  box-shadow: 0 0 10px rgba(0,0,0,.2);
-  border-radius: 1em;
-  display: flex;
-  flex-direction: column;
+    width: 800px;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .faq_title{
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-.boton_mostrar {
-  float:right;
-  font-size:12px;
-  color:#DE7217;
-  cursor:pointer;
+  padding: 5px 3px;
 }
 
 .faq_text{
-	padding: 0 3px 3px;
-  display: none;
-
+  padding: 5px 3px;
+  border-bottom: 1px solid grey;
 }
 
 .preguntas{
-	padding: 0 3px 3px;
-	border-bottom: 1px solid grey;
+  padding: 5px 3px;
+  border-bottom: 1px solid grey;
 }
+
+.fa-angle-down::before {
+    color: grey;
+    font-size: 25px;
+  }
+
+.fa-angle-up::before {
+    color: grey;
+    font-size: 25px;
+  }
 
 /*bienvenido*/
 .welcome{
@@ -544,7 +521,6 @@ footer > nav > ul > li {
 }
 
 .fa {
-  background: black;
   color: white;
   text-decoration: none;
   padding-right: 10px;

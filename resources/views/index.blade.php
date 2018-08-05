@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="/css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" src="plugins/aos/main.aos.css" />
 <title>After question</title>
 
 </head>
@@ -33,7 +34,9 @@
     <i class="fa fa-bars"></i>
     </a>
 	</nav>
-	<button class="button_login"> <a href="login">Login</a></button>
+	<div class="button_login">
+		<a href="login"> Login</a>
+	</div>
 	</div><!-- cierra botonera -->
 </div>
 </header>
@@ -73,6 +76,8 @@
 </div>
 
 		<article id="que_es1" class="que_es">
+		{{-- <div class="box" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div> --}}
 		<div class="que_es">
 		<div class="que_text">
 		<h2>¿Qué es? =0</h2>
@@ -84,11 +89,10 @@
 		<img src="images/collage-que.png">
 		</div> <!-- img_reglas -->
 
-
 	</article>
 
 	<article id="reglas1" class="reglas">
-		<div class="que_es">
+		<div class="reglas_left">
 		<div class="que_text">
 		<h2>Reglas ;)</h2>
 		<div class="separador_reglas">
@@ -147,9 +151,9 @@
 	</div>
 	<nav class="footer">
 		<uL>
-    		<li><a href="index.php#que_es1">¿Qué es?</a></li>
-    		<li><a href="index.php#reglas1">Reglas</a></li>
-    		<li><a href="faqs.php">FAQS</a></li>
+    		<li><a href="index#que_es1">¿Qué es?</a></li>
+    		<li><a href="index#reglas1">Reglas</a></li>
+    		<li><a href="faqs">FAQS</a></li>
 			<li>Copyright  2018. Todos los derechos reservados</li>
 		</uL>
 	</nav>
@@ -160,6 +164,10 @@
 <script type="text/javascript">
   var slideIndex = 0;
 showSlides(slideIndex);
+</script>
+<script src="plugins/aos/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 </body>
 </html>

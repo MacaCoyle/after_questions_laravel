@@ -319,12 +319,30 @@ nav ul li{
 
 .que_text{
 	width: 50%;
-	
+}
+
+.espuma{
+    background-image: url('espuma.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
 }
 
 #que_es1 > div.img_reglas > img{
     margin-right: 66px;
+}
 
+.share a{
+  padding-top: 12px; 
+  text-decoration: none;
+  color:#F3A908; 
+  font-weight:bold;
+}
+
+.fa-share-alt:before {
+  text-decoration: none;
+  color:#F3A908; 
+  padding-right: 6px;
 }
 
 .img_que{
@@ -338,7 +356,7 @@ nav ul li{
 	display: flex;
 	align-items: flex-center;
 	margin: 5px 0;
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .reglas_left{
@@ -350,7 +368,16 @@ nav ul li{
 
 .numeros  {
 	color: #FDEEC2;
-	font-size: 30px;
+	font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.enumeracion{
+  font-weight: bold;
+  border-right: 4px solid #F3A908;
+  padding: 0 3px;
 }
 
 .separador_reglas{
@@ -358,6 +385,7 @@ nav ul li{
 	margin: 20px 0;
 	padding: 14px 20px;
 	border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
 .jugadores{

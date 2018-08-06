@@ -46,7 +46,7 @@
     <h4>¿Qué es Lorem Ipsum?</h4>
     <div class="flechas">
     <a href="#" class="fa fa-angle-down"></a>
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
+    <a href="#" class="fa fa-angle-up" aria-hidden="true"></a>
     </div>
     </div>
     <div class="faq_text">

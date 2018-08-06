@@ -76,13 +76,16 @@
 </div>
 
 		<article id="que_es1" class="que_es">
-		<div class="box" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"></div> 
+		{{-- <div class="box" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div>  --}}
 		<div class="que_es">
 		<div class="que_text">
 		<h2>¿Qué es? =0</h2>
 		<br>
 		<p>Es un videojuego de trivia destinado para móviles, tambien tiene su plataforma web. Hay dos modos de juego sin un marcados de puntos en donde solo se hacen preguntas y no rige un timing ni un score por respuesta y esta la version duelo entre jugadores o equipos en donde compiten en ser el primero en obtener todas las preguntas respondias, cada uno de ellos representando una temática específica (Artes, Ciencia, Deportes, Entretenimiento, etc). Para ello, deben rellenar una barra de progreso contestando correctamente preguntas de selección múltiple, cuya temática es determinada previamente por el giro de una ruleta</p>
+		<div class="share">
+		<a href="#" class="fa fa-share-alt" aria-hidden="true">Compartir con amigos</a>
+		</div>
 		</div>
 		</div>
 		<div class="img_reglas">
@@ -90,25 +93,29 @@
 		</div> <!-- img_reglas -->
 
 	</article>
-
+     
 	<article id="reglas1" class="reglas">
+		<div class="espuma"></div>
 		<div class="reglas_left">
 		<div class="que_text">
 		<h2>Reglas ;)</h2>
 		<div class="separador_reglas">
-		<h3 class="numeros">1</h3>
+		<span class="enumeracion">1</span>
 		<p>El objetivo del juego es obtener todas la preguntas respondidas de forma original y con el menor tiempo posible.
 		</p>
+		<span class="numeros">1</span>
 		</div>
 		<div class="separador_reglas">
-		<h3 class="numeros">2</h3>
-		<p>Nunc quis mattis velit, eu aliquet mi. Proin eu leo odio. Vestibulum finibus sagittis turpis, sit amet hendrerit mauris semper in. Vivamus ornare pretium tempor, sit amet hendrerit mauris semper in. Vivamus ornare pretium tempor. 
+		<span class="enumeracion">2</span>
+		<p>Nunc quis mattis velit, eu aliquet mi. Proin eu leo odio. Vestibulum finibus sagittis turpis, sit amet hendrerit mauris semper in. Vivamus ornare pretium tempor. 
 		</p>
+		<span class="numeros">2</span>
 		</div>
 		<div class="separador_reglas">
-		<h3 class="numeros">3</h3>
+		<span class="enumeracion">3</span>
 		<p>Nunc quis mattis velit, eu aliquet mi. Proin eu leo odio. Vestibulum finibus sagittis turpis
 		</p>
+		<span class="numeros">3</span>
 		</div><!-- cierro separador de reglas 3 -->
 		</div>
 		</div>

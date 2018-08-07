@@ -16,7 +16,7 @@
 <header class="header">
 <div class="header_wrapper">
 <div class="header_logo" >
-<a href="index"> <img src="images/logo.png"> </a>
+<a href=""> <img src="images/logo.png"> </a>
 </div><!-- cierra header_logo -->
     <div class="botonera">
     <nav class="main-nav">

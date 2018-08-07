@@ -412,6 +412,27 @@ nav ul li{
     margin-left: 9px;
 
 }
+.boton-jugar{
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+.boton-jugar a {
+  text-decoration:none; 
+  background-color: black;
+  border-radius: 10px;
+  line-height:3px;
+  font-weight: 900;
+  font-size: 20px;
+  border:none;
+  padding: 10px 16px;
+}
+
+.boton-jugar a {
+  text-decoration: none;
+  color: #f3a908;
+}
+
 
 .juego{
 	/*margin-top: 20px;*/
@@ -430,12 +451,18 @@ nav ul li{
 	color: #ffdd00;
 }
 
-#descargar > div.descargar_imgs > img:nth-child(1){
-	margin-left: 20px;
-	margin-bottom: -3px;
 
+  /*Descargar*/
+
+#descargar > div.descargar_imgs > img:nth-child(1){
+	margin-left: 14px;
+	margin-bottom: -3px;
 }
 
+#descargar > div.descargar_imgs > img:nth-child(2){
+  margin-bottom: -3px;
+  padding-left: 6px;
+}
 /*Register form*/
 
 #register{
@@ -564,6 +591,18 @@ footer > nav > ul > li {
 	padding: 7px 10px;
 }
 
+  /*juego.blade.php*/
+
+.categorias{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
 /* For mobile phones: */
 
 @media only screen and (max-width: 800px) {
@@ -593,7 +632,7 @@ footer > nav > ul > li {
     text-align: center;
 }
 
-h2, h3, p{
+h1, h2, h3, p{
 	width: 100%;
     padding: 5px;
     text-align: center;

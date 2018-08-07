@@ -23,6 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $users = \App\User::limit(5)->get();
+
+        return view('home', ['users'=>$users]);
+        
     }
 }
+

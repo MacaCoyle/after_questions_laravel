@@ -16,7 +16,7 @@
 <header class="header">
 <div class="header_wrapper">
 <div class="header_logo" >
-<a href="index.php"> <img src="images/logo.png"> </a>
+<a href="index"> <img src="images/logo.png"> </a>
 </div><!-- cierra header_logo -->
     <div class="botonera">
     <nav class="main-nav">
@@ -25,7 +25,7 @@
             <li><a href="index#reglas1">Reglas</a></li>
             <li><a href="index#players">Players</a></li>
             <li><a href="faqs">FAQS</a></li>
-            <li><a href="index.php#descargar">Descargalo</a></li>
+            <li><a href="index#descargar">Descargalo</a></li>
             <li><a href="register">Registrate</a></li>
         </ul>
     </nav>

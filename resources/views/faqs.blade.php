@@ -15,17 +15,17 @@
 <header class="header">
 <div class="header_wrapper">
 <div class="header_logo" >
-<a href="index.php"> <img src="images/logo.png"> </a>
+<a href=""> <img src="images/logo.png"> </a>
 </div><!-- cierra header_logo -->
 	<div class="botonera">
 	<nav class="main-nav">
   		<ul>
-    		<li><a href="index.php#que_es1">¿Qué es?</a></li>
-    		<li><a href="index.php#reglas1">Reglas</a></li>
-    		<li><a href="index.php#players">Players</a></li>
+    		<li><a href="/#que_es1">¿Qué es?</a></li>
+    		<li><a href="/#reglas1">Reglas</a></li>
+    		<li><a href="/#players">Players</a></li>
     		<li><a href="faqs">FAQS</a></li>
-    		<li><a href="index.php#descargar">Descargalo</a></li>
-    		<li><a href="register.php">Registrate</a></li>
+    		<li><a href="/#descargar">Descargalo</a></li>
+    		<li><a href="register">Registrate</a></li>
  	 	</ul>
 	</nav>
 	<div class="button_login">

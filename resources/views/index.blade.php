@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="/css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="js/main.js"></script>
-<link rel="stylesheet" src="plugins/aos/main.aos.css" />
+<link rel="stylesheet" src="/plugins/aos/aos.css" />
 <title>After question</title>
 
 </head>
@@ -18,7 +18,7 @@
 <header class="header">
 <div class="header_wrapper">
 <div class="header_logo" >
-<a href="index.php"> <img src="images/logo.png"> </a>
+<a href=""> <img src="images/logo.png"> </a>
 </div><!-- cierra header_logo -->
 	<div class="botonera">
 	<nav class="main-nav" id="myTopnav">
@@ -76,8 +76,8 @@
 </div>
 
 		<article id="que_es1" class="que_es">
-		{{-- <div class="box" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"></div>  --}}
+		<div class="box" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"></div> 
 		<div class="que_es">
 		<div class="que_text">
 		<h2>¿Qué es? =0</h2>
@@ -129,18 +129,26 @@
 	<div class="que_es">
 	<h2>¿Quiénes jugaron? :D</h2>
 	</div>
-	<img class="banner" src="images/bannerfotos.jpg">
-	</article>
+	<div class="cards">
 
 	@foreach ($users as $user)
 		{{ $user->name }}
+		<div class="avatar"></div>
+		<div class="datos-player"></div>
 	@endforeach
+
+	
+	</div>
+	<img class="banner" src="images/bannerfotos.jpg">
+	</article>
 
 	<article id="descargar" class="descargalo">
 		<div class="descargar">
-		<h2>Descargalo ya mismo !</h2>
-		<br>
+		<h2>Jugá ya mismo !</h2>
 		<p>Y sumate al nuevo trending topic de bares!</p>	
+		<div class="boton-jugar">
+		<a href="juego"> Jugar!</a>
+		</div>
 		</div>
 		<div class="descargar_imgs">
 		<img src="images/screenshome.png">

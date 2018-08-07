@@ -12,13 +12,19 @@
 */
 
 Route::get('/', function () {
-	//hacer un controller para esta logica
 	$users = \App\User::limit(5)->get();
     return view('index', ['users'=>$users]);
-});
 
-Auth::routes();
+});
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+
+Auth::routes();
+
+
+
 Route::get('/faqs', 'FaqsController@faqs')->name('faqs');
+
+Route::get('/juego', 'JuegoController@juego')->name('juego');

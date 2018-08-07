@@ -11,4 +11,7 @@ class CardsController extends Controller
     $users = \App\User::limit(5)->get();
     return view('index', ['users'=>$users]);
 	}
+	public function index2(){
+		return view('index');
+	}
 }

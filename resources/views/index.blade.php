@@ -129,14 +129,14 @@
 	<div class="que_es">
 	<h2>¿Quiénes jugaron? :D</h2>
 	</div>
-	<div class="cards">
 
+	<div class="datos-player">
 	@foreach ($users as $user)
-		{{ $user->name }}
-		<div class="avatar"></div>
-		<div class="datos-player"></div>
+		<div class="cards-users">
+ 		<h6>{{ $user->name }} </h6>
+		</div>
 	@endforeach
-
+	</div>
 	
 	</div>
 	<img class="banner" src="images/bannerfotos.jpg">

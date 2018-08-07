@@ -21,11 +21,11 @@
     <div class="botonera">
     <nav class="main-nav">
         <ul>
-            <li><a href="index#que_es1">¿Qué es?</a></li>
-            <li><a href="index#reglas1">Reglas</a></li>
-            <li><a href="index#players">Players</a></li>
+            <li><a href="/#que_es1">¿Qué es?</a></li>
+            <li><a href="/#reglas1">Reglas</a></li>
+            <li><a href="/#players">Players</a></li>
             <li><a href="faqs">FAQS</a></li>
-            <li><a href="index#descargar">Descargalo</a></li>
+            <li><a href="/#descargar">Descargalo</a></li>
             <li><a href="register">Registrate</a></li>
         </ul>
     </nav>

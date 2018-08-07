@@ -392,7 +392,23 @@ nav ul li{
 	display: flex;
 	align-items: flex-center;
 	margin: 5px 0px;
-    padding: 90px 0;
+  padding: 90px 0;
+}
+
+.datos-player{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-content: stretch;
+}
+
+.cards-users{
+    width: 150px;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 1em;
 }
 
 /*Seccion Descargalo*/

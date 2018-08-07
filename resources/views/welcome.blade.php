@@ -1,95 +1,71 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Passion+One:400,700,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" href="/plugins/aos/aos.css"/>
+<title>After question</title>
 
-        <title>Laravel</title>
+</head>
+<body>
+<div class="container">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+<header class="header">
+<div class="header_wrapper">
+<div class="header_logo" >
+<a href=""> <img src="images/logo.png"> </a>
+</div><!-- cierra header_logo -->
+    <div class="botonera">
+    <nav class="main-nav" id="myTopnav">
+        <ul>
+            <li><a href="#que_es1">¿Qué es?</a></li>
+            <li><a href="#reglas1">Reglas</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="faqs">FAQS</a></li>
+            <li><a href="#descargar">Descargalo</a></li>
+            <li><a href="register">Registrate</a></li>
+        </ul>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    </nav>
+    <div class="button_login">
+        <a href="login"> Login</a>
+    </div>
+    </div><!-- cierra botonera -->
+</div>
+</header>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+<main>
+<h1>BIENVENIDO</h1>
+</main>
+ 
+<footer>
+    <div class="redes">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <nav class="footer">
+        <uL>
+            <li><a href="index#que_es1">¿Qué es?</a></li>
+            <li><a href="index#reglas1">Reglas</a></li>
+            <li><a href="faqs">FAQS</a></li>
+            <li>Copyright  2018. Todos los derechos reservados</li>
+        </uL>
+    </nav>
+</footer>
 
-            .full-height {
-                height: 100vh;
-            }
+</div> <!-- cierra container -->
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
+<script type="text/javascript">
+  var slideIndex = 0;
+showSlides(slideIndex);
+</script>
+</body>
 </html>
